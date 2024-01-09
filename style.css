@@ -73,8 +73,16 @@ a {
   flex-shrink: 0;
 }
 
+.sign-up:active {
+  background-color: #2253f3;
+}
+
 .intro-img .img {
   border-radius: 20px;
   width: 600px;
   height: 375px;
+}
+
+.container4 {
+  background-color: #e5e7eb;
 }
