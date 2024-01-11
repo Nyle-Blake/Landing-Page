@@ -83,7 +83,8 @@ a {
 }
 
 .sign-up:active {
-  background-color: #2253f3;
+  background-color: white;
+  color: #3882f6;
 }
 
 .intro-img .img {
@@ -197,4 +198,9 @@ a {
   border-radius: 10px;
   width: 150px;
   margin-left: -225px;
+}
+
+.outer-popup .sign-up:active {
+  background-color: white;
+  color: #397fff;
 }
