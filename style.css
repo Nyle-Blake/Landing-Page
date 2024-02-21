@@ -7,36 +7,43 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  padding-top: 45px;
 }
 
 .container-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0 200px;
+  width: 100%;
   height: 50px;
   color: white;
   background-color: #30cfae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 0 10px;
 }
 
 .logo {
   font-size: 40px;
 }
 
-ul {
+.header-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
+  margin-left: 20%;
 }
 
-li {
+.header-links > li {
   font-size: 25px;
   font-weight: 500;
   cursor: pointer;
 }
 
-li:active {
-  color: grey;
+.header-links > li:active {
+  /* color: grey; */
+  text-decoration: underline;
 }
 
 a {
@@ -49,8 +56,11 @@ a {
   align-items: center;
   padding: 0 150px;
   height: 650px;
+  border-radius: 0 20px;
   color: white;
   background-color: #30cfae;
+  -webkit-box-shadow: 0px 12px 35px -9px #000000; 
+  box-shadow: 0px 12px 35px -9px #000000;
 }
 
 .intro {
@@ -80,10 +90,11 @@ a {
   margin-top: 18px;
   width: 110px;
   flex-shrink: 0;
+  border: 1.4px solid #fff;
 }
 
 .sign-up:active {
-  background-color: white;
+  background-color: #fff;
   color: #3882f6;
 }
 
@@ -134,20 +145,22 @@ a {
   font-weight: 900;
 }
 
-.container4 {
+.container-outer-quote {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 550px;
+  -webkit-box-shadow: 0px 12px 35px -9px #000000; 
+  box-shadow: 0px 12px 35px -9px #000000;
 }
 
-.container-quote {
+.container-inner-quote {
   display: flex;
   flex-direction: column;
 }
 
-.container-quote p {
+.container-inner-quote p {
   font-size: 40px;
   font-weight: 100;
   font-family: 'Cormorant Garamond', serif;
@@ -177,7 +190,7 @@ a {
   justify-content: space-around;
   align-items: center;
   background-color: #397fff;
-  color: white;
+  color: #fff;
   border-radius: 8px;
   width: 1350px;
   height:160px;
@@ -194,13 +207,13 @@ a {
 }
 
 .outer-popup .sign-up {
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 10px;
   width: 150px;
   margin-left: -225px;
 }
 
 .outer-popup .sign-up:active {
-  background-color: white;
+  background-color: #fff;
   color: #397fff;
 }
