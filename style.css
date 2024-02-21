@@ -32,7 +32,7 @@ body {
   list-style: none;
   display: flex;
   gap: 25px;
-  margin-left: 20%;
+  margin-left: 52%;
 }
 
 .header-links > li {
@@ -42,11 +42,11 @@ body {
 }
 
 .header-links > li:active {
-  /* color: grey; */
+  color: grey;
   text-decoration: underline;
 }
 
-a {
+.header-links > a {
   text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ a {
   height: 375px;
 }
 
-.container4 {
+.container-outer-quote {
   background-color: #e5e7eb;
 }
 
